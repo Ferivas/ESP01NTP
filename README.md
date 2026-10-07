@@ -48,6 +48,11 @@ pio device monitor     # monitor serie (9600 baud)
 - `src/main.cpp` — programa principal: WiFiManager, NTP, reloj interno, transmisión serial.
 - `platformio.ini` — entorno `esp01`, dependencia WiFiManager.
 
+## Montaje en tarjeta perforada
+El ESP01 se armo según el esquemático de [SCH](<https://github.com/Ferivas/ESP01NTP/blob/main/sch/SCH_ESP01NTP.pdf>)  y se muestra en la figura siguiente:
+<img width="600" alt="Montaje" src="https://github.com/Ferivas/ESP01NTP/blob/main/docs/ESP01NTP.jpg">
+
+
 ## Serial
 
 - `Serial` (GPIO1/TX0): datos del reloj a 9600 baud
